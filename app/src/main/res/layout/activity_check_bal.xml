@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue1"
+    android:orientation="vertical"
+    tools:context=".CheckBal">
+
+
+    <Button
+        android:id="@+id/blJazz"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:drawableLeft="@drawable/jazz1logon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:background="@drawable/old1"
+        android:onClick="balJazz"
+        android:text="Click to Check Jazz Balance"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/bltel"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/telicon"
+        android:layout_margin="20dp"
+        android:layout_below="@id/blJazz"
+        android:background="@drawable/old1"
+        android:onClick="baltel"
+        android:text="Click to Check Telenor Balance"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/blufone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bltel"
+        android:background="@drawable/old1"
+        android:drawableLeft="@drawable/ufonelogo"
+        android:onClick="balufone"
+        android:text="Click to Check Ufone Balance"
+        android:textColor="#000000"
+        android:textStyle="bold"
+       />
+
+    <Button
+        android:id="@+id/blwarid"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/blufone"
+        android:background="@drawable/old1"
+        android:drawableLeft="@drawable/waridicon"
+        android:onClick="balwarid"
+        android:text="Click to Check Warid Balance"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/blzong"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/blwarid"
+        android:background="@drawable/old1"
+        android:drawableLeft="@drawable/zongicon"
+        android:onClick="balzong"
+        android:text="Click to Check Zong Balance"
+        android:textColor="#000000"
+        android:textStyle="bold"
+         />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_centerHorizontal="true"
+        android:text="Check Your Balance Below"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/blzong"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_centerHorizontal="true"
+        android:text="Click on above Button to check your Balance within this application"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

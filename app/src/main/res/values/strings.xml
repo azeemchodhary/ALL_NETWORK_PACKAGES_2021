@@ -1,0 +1,904 @@
+<resources>
+    <string name="app_name">All Packages Detail</string>
+    <string name="Title">All Packages Detail(2020)</string>
+    <string name="btn2">jazz</string>
+    <string name="btn3">Telenor</string>
+    <string name="btn4">Zong</string>
+    <string name="btn5">Warid</string>
+    <string name="btn6">Ufone</string>
+    <string name="title_activity_tabbed">tabbed</string>
+    //Jazz Start
+    //Jazz Data Packages
+    <string-array name="jazzdatadata_name">
+        <item>DAILY SOCIAL RECURSIVE</item>
+        <item>DAILY SOCIAL</item>
+        <item>Daily Browser</item>
+        <item>DAILY PEAK OFF-PEAK</item>
+        <item>Weekly Social</item>
+        <item>WEEKLY YOUTUBE OFFER</item>
+        <item>WEEKLY PREMIUM</item>
+        <item>WEEKLY MEGA</item>
+        <item>WEEKLY PLUS</item>
+        <item>WEEKLY MEGA PLUS</item>
+        <item>WEEKLY STREAMER</item>
+        <item>MONTHLY BROWSER</item>
+        <item>MONTHLY MEGA</item>
+        <item>MONTHLY MEGA PLUS</item>
+        <item>MONTHLY SUPREME</item>
+
+
+    </string-array>
+    <string-array name="jazzdatadata_description">
+         <item>
+           200 MB DATA\n(Facebook and Whatsapp)\n<b>Price</b>          Rs.5.98\n<b>Code</b>             Dial *455#
+        <b>Validity</b> 1 Day
+    </item>
+        <item>
+        500 MB DATA\n(Facebook and WhatsApp)
+        \n<b>Code</b> Rs.7.00 (Incl.Tax)Recharge Required PKR 90		Dial *114*5#
+        <b>Validity</b> 1 Day
+    </item>
+        <item>
+        100 MB DATA (24 Hours) \n1.1 GB in Off Peak (2 AM – 2 PM) \n <b>Price</b>          Rs.24 (Incl. Tax)\n<b>Code</b>             *117*4#
+        \n <b>Validity</b> 1 Day</item>
+        <item>5 GB DATA for IMO, WhatsApp and Facebook\n <b>Price</b>           Rs.60 (Incl. Tax)\n<b>Code</b>             Dial *660#
+        \n <b>Validity</b> 7 Day</item>
+        <item>5 GB DATA
+        <b>Price</b>           Rs.80 (Incl. Tax)\n<b>Code</b>             Dial *570#
+        \n <b>Validity</b> 7 Day</item>
+        <item>3 GB DATA
+        <b>Price</b>           Rs.140 (Incl. Tax)Recharge Required Rs.158\n<b>Code</b>             Dial *117*47#
+        \n <b>Validity</b> 7 Day</item>
+        <item>7 GB DATA
+        <b>Price</b>           Rs.200 (Incl. Tax)Recharge Required Rs.225\n<b>Code</b>             Dial *159#
+        \n <b>Validity</b> 7 Day</item>
+        <item>12 GB DATA \n (6GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.210 (Incl. Tax)Recharge Required Rs.230\n<b>Code</b>             Dial *157#
+        \n <b>Validity</b> 7 Day</item>
+        <item>12 GB DATA \n (6GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.210 (Incl. Tax)Recharge Required Rs.250\n<b>Code</b>             Dial *157#
+        \n <b>Validity</b> 7 Day</item>
+        <item>1 GB DATA \n
+        <b>Price</b>           Rs.95 (Incl. Tax)Recharge Required Rs.107\n<b>Code</b>             Dial *117*7#
+        \n <b>Validity</b> 7 Day</item>
+        <item>4 GB DATA \n(2 GB 2 AM – 2 PM)\n
+        <b>Price</b>           Rs.215 (Incl. Tax)Recharge Required Rs.242\n<b>Code</b>             Dial *117*77#
+        \n <b>Validity</b> 30 Day</item>
+        <item>4 GB DATA \n(2 GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.215 (Incl. Tax)Recharge Required Rs.242\n<b>Code</b>             Dial *117*77#
+        \n <b>Validity</b> 30 Day</item>
+        <item>12 GB DATA \n (6GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.600 (Incl. Tax)Recharge Required Rs.675\n<b>Code</b>             Dial *117*30#
+        \n <b>Validity</b> 30 Day</item>
+        <item>12 GB DATA \n (6GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.600  (Incl. Tax)Recharge Required Rs.675*\n<b>Code</b>             Dial *117*32#
+        \n <b>Validity</b> 30 Day</item>
+        <item>20 GB DATA \n (10GB 2 AM – 2 PM)
+        <b>Price</b>           Rs.885  (Incl. Tax)Recharge Required Rs.996*\n<b>Code</b>             Dial *117*32#
+        \n <b>Validity</b> 30 Day</item>
+
+    </string-array>
+    <string-array name="jazzdatadata_code">
+        <item>*455%23</item>
+        <item>*114*5%23</item>
+        <item>*117*11%23</item>
+        <item>*117*4%23</item>
+        <item>*660%23</item>
+        <item>*570%23</item>
+        <item>*117*47%23</item>
+        <item>*159%23</item>
+        <item>*157%23</item>
+        <item>*453%23</item>
+        <item>*117*7%23</item>
+        <item>*117*77%23</item>
+        <item>*117*31%23</item>
+        <item>*117*30%23</item>
+        <item>*117*32%23</item>
+
+    </string-array>
+
+    //Jazz SMS packages
+    <string-array name="jazzdatasms_name">
+        <item>DAILY WHATSAPP and SMS</item>
+        <item>WEEKLY WHATSAPP and SMS</item>
+        <item>MONTHLY WHATSAPP and SMS</item>
+    </string-array>
+    <string-array name="jazzdatasms_description">
+        <item>10 MB DATA WhatsApp \n​
+            <b>SMS</b> 1800 \n
+            <b>Price</b>           Rs.7.2  (Incl. Tax)Recharge Required Rs.8 \n<b>Code</b>             Dial *334#
+        \n <b>Validity</b> 1 Day </item>
+        <item>25 MB DATA WhatsApp \n​
+            <b>SMS</b> 1500 \n
+            <b>Price</b>           Rs.20  (Incl. Tax)Recharge Required Rs.23 \n<b>Code</b>             Dial *101*1*07#
+        \n <b>Validity</b> 7 Day</item>
+        <item>5 GB DATA WhatsApp \n​
+            <b>SMS</b> 12000 \n
+            <b>Price</b>           Rs.70  (Incl. Tax)Recharge Required Rs.79 \n<b>Code</b>             Dial *101*1*02#
+        \n <b>Validity</b> 30 Day</item>
+    </string-array>
+    <string-array name="jazzdatasms_code">
+        <item>*334%23</item>
+        <item>*101*1*07%23</item>
+        <item>*101*1*02%23</item>
+
+    </string-array>
+
+    //Jazz Call Packages
+    <string-array name="jazzdatacall_name">
+        <item>Jazz/Warid Har Din Bundle</item>
+        <item>Jazz/Warid Super Plus</item>
+        <item>Jazz/Warid Day Bundle</item>
+        <item>Jazz/Warid Haftawar Offer</item>
+        <item>Jazz/Warid All Network Package</item>
+
+    </string-array>
+    <string-array name="jazzdatacall_description">
+        <item>500 On-net minutes
+            50 MB
+         <b>Price</b>           Rs 21.51  (Incl. Tax)Recharge Required Rs.25 \n<b>Code</b>             Dial *114*4#
+        \n <b>Validity</b> 1 Day</item>
+        <item>500 On-net minutes
+           500MB, 500 SMS \n5 off-net minutes
+         <b>Price</b>           Rs 28  (Incl. Tax)Recharge Required Rs.35 \n<b>Code</b>             Dial *558#
+        \n <b>Validity</b> 1 Day</item>
+        <item>300 minutes
+           20MB, 300 SMS \n5 off-net minutes
+         <b>Price</b>           Rs 13  (Incl. Tax)Recharge Required Rs.15 \n<b>Code</b>             Dial *340#
+        \n <b>Validity</b> 1 Day</item>
+        <item>1000 on-net minutes
+           100 MB, 1000 SMS \n5 off-net minutes
+         <b>Price</b>           Rs 85  (Incl. Tax)Recharge Required Rs.95 \n<b>Code</b>             Dial *407#
+        \n <b>Validity</b> 7 Day</item>
+        <item>1000 on-net minutes
+           1 GB, 1000 SMS \n50 off-net minutes
+         <b>Price</b>           Rs 155  (Incl. Tax)Recharge Required Rs.170 \n<b>Code</b>             Dial *700#
+        \n <b>Validity</b> 7 Day</item>
+
+    </string-array>
+    <string-array name="jazzdatacall_code">
+        <item>*114*4%23</item>
+        <item>*558%23</item>
+        <item>*340%23</item>
+        <item>*407%23</item>
+        <item>*700%23</item>
+    </string-array>
+
+    //Jazz Hybrid Packages
+    <string-array name="jazzdatahybrid_name">
+        <item>DAILY DAY BUNDLE</item>
+        <item>Super BUNDLE</item>
+        <item>Super Plus Bundle</item>
+        <item>Weekly Hybrid</item>
+        <item>Weekly All Network</item>
+        <item>Weekly Super Duper</item>
+        <item>Mega Super Duper Weekly</item>
+        <item>Monthly Hybrid</item>
+        <item>Monthtly Super Duper</item>
+        <item>Jazz/Warid Monthly All Rounder Package</item>
+        <item>MONTHLY SUPER DUPER PLUS</item>
+
+
+    </string-array>
+    <string-array name="jazzdatahybrid_description">
+        <item>
+		20 MB DATA \n 300 Mins Jazz Mins \n300 SMS \n Rs.13(incl. Tax)\nRecharge Required Rs.17
+		</item>
+        <item>
+            150 MB DATA\n 300 Jazz/Warid Mins\n Rs.17(incl. Tax)\nRecharge Required Rs.23
+        </item>
+        <item>
+            500 Minutes Jazz/Warid Mins \n 5 Minutes Other Network Mins 500 SMS \n 500 MB DATA \n Rs.28(incl. Tax)\nRecharge Required Rs.37
+        </item>
+        <item>
+		500 MB DATA \n1000 Mins Jazz/Warid Mins \n20 Other Network Mins \n1000 SMS \nRs. 115(incl. Tax)\nRecharge Required Rs.150
+	  </item>
+        <item>
+	  1 GB DATA \n1000 Jazz/Warid Mins\n50 Other Network Mins\n1000 SMS\nRs.155(incl. Tax)\nRecharge Required Rs.200
+	  </item>
+        <item>
+        3 GB DATA\n1500 Jazz/Warid Mins\n50 Other Network Mins \n1500 SMS\nRs.199(incl. Tax)\nRecharge Required Rs.250
+        </item>
+        <item>
+	   10 GB DATA\n(5 GB 2AM - 2PM)\n5000 Jazz/Warid Mins\n50 Other Network Mins\n5000 SMS\nRs.222(incl. Tax)\nRecharge Required Rs.270
+	  </item>
+        <item>
+		  1 GB DATA \n10000 Jazz/Warid Mins 333/Day(Unlimited On-net Mins Sunday)\n50 Other Network\n1000 SMS\n Price Rs. 444(incl. Tax)\nRecharge Required Rs.570
+	  </item>
+
+        <item>
+		  3 GB DATA \n3000 Jazz/Warid Mins \n150 Other Network Mins \n3000 SMS \nPrice 577(incl. Tax)\nRecharge Required Rs.700
+	  </item>
+        <item>
+		   200Free Off-Net Minutes\n 1500 Free SMS to All Networks\n5GB of Free Internet Data\n30 Days Vailidity\nRs. 596(incl. Tax)\nRecharge Required Rs.700
+	  </item>
+
+        <item>
+		   10 GB DATA \n5000 Jazz/Warid Mins\n300 Other Network Mins\n5000 SMS\nRs.977(incl. Tax)\nRecharge Required Rs.1250
+	  </item>
+    </string-array>
+    <string-array name="jazzdatahybrid_code">
+        <item>*340%23</item>
+        <item>*212%23</item>
+        <item>*558%23</item>
+        <item>*407%23</item>
+        <item>*700%23</item>
+        <item>*770%23</item>
+        <item>*505%23</item>
+        <item>*430%23</item>
+        <item>*706%23</item>
+        <item>*2000%23</item>
+        <item>*707%23</item>
+
+    </string-array>
+
+    //Zong Start
+    //Zong Data Packages
+
+    <string-array name="zongdatadata_name">
+        <item>Daily Basic</item>
+        <item>Daily Data Max</item>
+        <item>Zong Day Time Offer</item>
+        <item>Zong Good Night offer</item>
+        <item>All-in-1 Daily</item>
+        <item>Social Pack</item>
+        <item>Facebook Daily</item>
+        <item>Super Weekly Offer</item>
+        <item>Super Weekly Plus</item>
+        <item>Super Weekly Max</item>
+        <item>Zong Shandaar Weekly Offer</item>
+        <item>All-in-1 Weekly</item>
+        <item>Haftawar Load Offer</item>
+        <item>Monthly Mini 150</item>
+        <item>Monthly Basic 500</item>
+        <item>Monthly Premium 3GB</item>
+        <item>Monthly Premium 30GB</item>
+    </string-array>
+    <string-array name="zongdatadata_description">
+        <item> MB 100 \nPrice Rs 17(incl. Tax)Recharge Required Rs.23 \n<b>Code</b>              Dial *6464#
+        \nValidity 1 Day </item>
+        <item><b>MB</b> 500MB, 500MB for YouTube \nPrice Rs 38(incl. Tax)Recharge Required Rs.45 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 1 Day </item>
+        <item> <b>MB</b> 1200 \n
+            <b>Price</b> Rs 16(incl. Tax)Recharge Required Rs.23 \nCode Type "DTO" and send it to 6464
+        \n <b>Validity</b> 1 Day </item>
+        <item><b>MB</b> 2500 \n
+            <b>Price</b>           Rs 16   (incl. Tax)Recharge Required Rs.23 \n<b>Code</b>              Type "GNO" and send it to 6464
+        \n <b>Validity</b> 1 Day</item>
+        <item>40MB, \n40 On-net Minutes, \n4 Off-net minutes, \n400 SMS\n
+            <b>Price</b>           Rs 25(incl. Tax)Recharge Required Rs.30 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 1 Day</item>
+        <item>(Facebook, WhatsApp and Twitter)\n <b>MB</b> 100 \n
+            <b>Price</b>           Rs 10(incl. Tax)Recharge Required Rs.14 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 1 Day </item>
+        <item>(Facebook)\n <b>MB</b> 50 \n
+            <b>Price</b>           Rs 5   (incl. Tax)Recharge Required Rs.7 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 1 Day</item>
+        <item><b>MB</b> 2500 \n
+            <b>Price</b>           Rs 123   (+ Tax)Recharge Required Rs.147 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 7 Day</item>
+        <item><b>MB</b> 7000 \n
+            <b>Price</b>           Rs 164   (+ Tax)Recharge Required Rs.190 \n<b>Code</b>              Dial *20#
+        \n <b>Validity</b> 7 Day</item>
+        <item><b>GB</b> 25(25000MB) \n
+            ( 10GB 24Hours, 5GB 4 AM-4 PM, 10GB YouTube)\n
+            <b>Price</b>           Rs 201  (+ Tax)Recharge Required Rs.270 \n<b>Code</b>              Dial *220#
+        \n <b>Validity</b> 7 Day</item>
+        <item><b>MB</b> 350 \n
+            50 off-net minutes \n1000 On-net minutes \n1000 SMS \n
+            <b>Price</b>           Rs 85  (+ Tax)Recharge Required Rs.110 \n<b>Code</b>              Dial *7#
+        \n <b>Validity</b> 7 Day</item>
+        <item><b>MB</b> 1000 \n
+            40 off-net minutes \n1000 On-net minutes \n1000 SMS \n
+            <b>Price</b>           Rs 200  (+ Tax)Recharge Required Rs.200 \n<b>Code</b>             Dial *6464#
+        \n <b>Validity</b> 7 Day</item>
+        <item><b>MB</b> 3000 \n
+            80 off-net minutes \n3000 On-net minutes \n3000 SMS \n
+            <b>Price</b>           Rs 250  (+ Tax)Recharge Required Rs.300 \n<b>Code</b>             Dial *70#
+        \n <b>Validity</b> 30 Day</item>
+        <item><b>MB</b> 150 \n
+            <b>Price</b>           Rs 50   (+ Tax)Recharge Required Rs.70 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 30 Day</item>
+        <item><b>MB</b> 500 \n
+            <b>Price</b>           Rs 150   (+ Tax)Recharge Required Rs.190 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 30 Day</item>
+        <item><b>MB</b> 3000 \n
+            <b>Price</b>           Rs 300   (+ Tax)Recharge Required Rs.370 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 30 Day</item>
+        <item><b>GB</b> 30 \n (15GB for YouTube + TikTok)
+          \n  <b>Price</b>           Rs 744   (+ Tax)Recharge Required Rs.860 \n<b>Code</b>              Dial *6464#
+        \n <b>Validity</b> 30 Day</item>
+    </string-array>
+    <string-array name="zongdatadata_code">
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*20%23</item>
+        <item>*220%23</item>
+        <item>*7%23</item>
+        <item>*6464%23</item>
+        <item>*70%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+        <item>*6464%23</item>
+
+    </string-array>
+    //Zong Call Packages
+
+    <string-array name="zongdatacall_name">
+        <item>Super Student Offer</item>
+        <item>Daily Shaandar Offer</item>
+        <item>Daily Unlimited Offer</item>
+        <item>Hello Offer</item>
+        <item>Flutter Offer</item>
+        <item>Full Gup Offer</item>
+        <item>Non-Stop Offer</item>
+        <item>Weekly Unlimited Offer</item>
+        <item>Hello 7 Days Offer</item>
+        <item>Supreme Offer</item>
+        <item>Shandaar Mahana Offer</item>
+        <item>All in one Monthly</item>
+        <item>Supreme Plus New</item>
+
+    </string-array>
+    <string-array name="zongdatacall_description">
+        <item>Unlimited On-net minutes \n30MBs internet data
+         <b>Price</b>           Rs 6  (Incl. Tax)Recharge Required Rs.25 \n<b>Code</b>             Dial *5555#
+        \n <b>Validity</b> 2 hours</item>
+        <item>Unlimited On-net minutes \n800 SMS, 50MB internet data
+         <b>Price</b>           Rs 13 (Incl. Tax)Recharge Required Rs.35 \n<b>Code</b>             Dial *999#
+        \n <b>Validity</b> 24 hours</item>
+        <item>
+Unlimited On-net minutes \n
+         <b>Price</b>           Rs 14 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *522#
+        \n <b>Validity</b> 1 Day (expires the same day midnight)</item>
+        <item>
+150 On-net minutes \n 150 SMS, 50MB (for Facebook)\n
+         <b>Price</b>           Rs 14 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *2200*1#
+        \n <b>Validity</b> 1 Day </item>
+        <item>
+120 On-net minutes \n 1200 SMS, 50MB\n
+         <b>Price</b>           Rs 14 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *369#
+        \n <b>Validity</b> 1 Day </item>
+        <item>
+75 On-net minutes \n 100SMS, 30MB (for WhatsApp)\n
+         <b>Price</b>           Rs 6 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>              Dial *118*1#
+        \n <b>Validity</b> 1 Day </item>
+        <item>
+Unlimited calls \n 1MB data\n
+         <b>Price</b>           Rs 10 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *777#
+        \n <b>Validity</b> Valid for 7 PM to 10 PM </item>
+        <item>
+Unlimited calls \n
+         <b>Price</b>           Rs 63 (Incl. Tax)Recharge Required Rs.75 \n<b>Code</b>             Type “PK7” and send it to 522
+        \n <b>Validity</b> Valid for 7 Days\n
+		</item>
+        <item>
+Daily 100 Zong minutes (for 7 days) \n 100 SMS/day, 1MB data\n
+         <b>Price</b>           Rs 45 (Incl. Tax)Recharge Required Rs.65 \n<b>Code</b>             Dial *2200*1#
+        \n <b>Validity</b> Valid for 7 Days\n
+	</item>
+        <item>
+5000 On-net minutes (for 30 days) \n 300 Off-net minutes, 5000 SMS, 5000MBs, 2GB YouTube, Free WhatsApp\n
+         <b>Price</b>           Rs 1000 (Incl. Tax) \n<b>Code</b>             Dial *3030#
+        \n <b>Validity</b> Valid for 30 Days\n
+	</item>
+        <item>
+1000 On-net minutes (for 30 days) \n 3100 Off-net minutes, 1000 SMS, 1000MBs\n
+         <b>Price</b>           Rs 300 (Incl. Tax) \n<b>Code</b>             Dial *1000#
+        \n <b>Validity</b> Valid for 30 Days\n
+	</item>
+        <item>
+2500 On-net minutes (for 30 days) \n 150 Off-net minutes, 2500 SMS daily, 2500MBs, 1GB Youtube, Free Whatsapp\n Type “home2” and send it to 6565\n
+         <b>Price</b>           Rs 650 (Incl. Tax) \n<b>Code</b>
+        \n <b>Validity</b> Valid for 30 Days\n
+	</item>
+        <item>
+10,000 On-net minutes (for 30 days) \n 600 Off-net minutes, 10,000 SMS , 10,000MBs, \n
+         <b>Price</b>           Rs 1732 (Incl. Tax) \n<b>Code</b>             Dial *1500#
+        \n <b>Validity</b> Valid for 30 Days\n
+	</item>
+
+    </string-array>
+    <string-array name="zongdatacall_code">
+        <item>*5555%23</item>
+        <item>*999%23</item>
+        <item>*522%23</item>
+        <item>*2200*1%23</item>
+        <item>*369%23</item>
+        <item>*118*1%23</item>
+        <item>*777%23</item>
+        <item>*6464%23</item>
+        <item>*2200*1%23</item>
+        <item>*3030%23</item>
+        <item>*1000%23</item>
+        <item>*6464%23</item>
+        <item>*1500%23</item>
+
+    </string-array>
+
+    //Zong SMS packages
+
+    <string-array name="zongdatasms_name">
+        <item>DAILY SMS WHATSAPP BUNDLE</item>
+        <item>ZULU SMS BUNDLE</item>
+        <item>WEEKLY SMS BUNDLE</item>
+        <item>MONTHLY SMS WHATSAPP BUNDLE</item>
+
+    </string-array>
+    <string-array name="zongdatasms_description">
+        <item>500 SMS/day \n30 MB per day(WhatsApp Only)\n
+            <b>Price</b>           Rs. 5+tax Recharge Required Rs.10\n<b>Code</b>             Dial *700#
+        \n <b>Validity</b> 1 Day</item>
+        <item>500 SMS/day \n1 MB per day /n
+            <b>Price</b>           Rs. 4+tax Recharge Required Rs.10\n<b>Code</b>             Dial *704#
+        \n <b>Validity</b> 1 Day</item>
+        <item>1500 SMS/day \n200 MB per day(WhatsApp Only)
+            \n <b>Price</b>           Rs. 21+tax Recharge Required Rs.30\n<b>Code</b>             Dial *702#
+        \n <b>Validity</b> 7 Day</item>
+        <item>500 SMS/day \n30 MB per day(WhatsApp only)\n
+            <b>Price</b>           Rs. 50+tax Recharge Required Rs.70\n<b>Code</b>             Dial *705#
+        \n <b>Validity</b> 30 Day</item>
+
+    </string-array>
+    <string-array name="zongdatasms_code">
+        <item>*700%23</item>
+        <item>*704%23</item>
+        <item>*702%23</item>
+        <item>*705%23</item>
+
+    </string-array>
+    //Zong Hybrid Packages
+
+    <string-array name="zongdatahybrid_name">
+        <item>Starter (Monthly Power Pack 500)</item>
+        <item>Value (Monthly Power Pack 1000)</item>
+        <item>Gold (3 Months Power Pack 1500)</item>
+
+    </string-array>
+    <string-array name="zongdatahybrid_description">
+        <item>1000 Free On-Net Minutes\n 50 off-net minutes, 2500MB internet data, 1000 SMS\n30 Days Vailidity\nRs. 500+tax
+        \nDail *1313#</item>
+        <item>2000 Free On-Net Minutes\n 150 off-net minutes, 5000MB internet data, 1500 SMS\n30 Days Vailidity\nRs. 1000+tax
+        \nDail *1313#</item>
+        <item>8000 Free On-Net Minutes\n 200 off-net minutes, 8000MB internet data, 3000 SMS\n90 Days Vailidity\nRs. 1500+tax
+        \nDail *1313#</item>
+
+    </string-array>
+    <string-array name="zongdatahybrid_code">
+        <item>*1313%23</item>
+        <item>*1313%23</item>
+        <item>*1313%23</item>
+
+    </string-array>
+    //Telenor Start
+    <string-array name="telenordatadata_name">
+        <item>Social Pack</item>
+        <item>4G Daily Lite Bundle</item>
+        <item>Raat Din Offer</item>
+        <item>YouTube Bundle</item>
+        <item>4G 3 Day Bundle</item>
+        <item>Weekly Budget Package</item>
+        <item>Free Whatsapp Offer</item>
+        <item>Weekly Plus Bundle</item>
+        <item>4G Weekly Bundle</item>
+        <item>4G Weekly Unlimited Internet Bundle</item>
+        <item>Super Dhamal Internet Offer</item>
+        <item>Dhamal Internet Offer</item>
+        <item>4G Weekly Super</item>
+        <item>4G Weekly Ultra</item>
+        <item>Mehran Internet Offer</item>
+        <item>4G MONTHLY ULTRA</item>
+        <item>Monthly Facebook WhatsApp Offer</item>
+        <item>4G Monthly Lite</item>
+        <item>4G Monthly Plus Bundle</item>
+        <item>4G Monthly Starter Bundle</item>
+        <item>Monthly Data Offer</item>
+
+
+    </string-array>
+    <string-array name="telenordatadata_description">
+        <item>Internet 50 MB \n(Free Facebook and Whatsapp)\nValidity 1 day\n Price Rs. 1.19 \nDial *311#</item>
+        <item>Internet 50 MB\nValidity 1 day\n Price Rs. 14.28 \nDial *12#</item>
+        <item>Internet 1.5 GB\nValidity 1 day\n Price Rs. 18 \nDial *150#</item>
+        <item>Internet 500 MB\nValidity 1 day\n Price Rs. 8(incl. Tax) \nDial *60#</item>
+        <item>Internet 1000 MB\n(500MB 12AM - 8AM)\nValidity 3 day\n Price Rs. 44(incl. Tax) \nDial *32#</item>
+        <item>Internet 4000 MB MB\n(2000MB 1AM - 11AM)\nValidity 7 day\n Price Rs. 99(incl. Tax) \nDial *288#</item>
+        <item>Internet 2 GB\n(WhatsApp Only)\nValidity 30 day\n Price Rs. Free \nDial *247#</item>
+        <item>Internet 1500 MB\nValidity 7 day\n Price Rs. 120(incl. Tax) \nDial *73#</item>
+        <item>Internet 750 MB(+500 WhatsApp)\nValidity 7 day\n Price Rs. 90(incl. Tax) \nDial *72#</item>
+        <item>Internet 4000 MB\nValidity 7 day(6AM - 6PM)\n Price Rs. 50(incl. Tax) \nDial *345*71#</item>
+        <item>Internet 5000 MB(Selected Cities Only)\nValidity 7 day\n Price Rs. 150(incl. Tax) \nDial *946#</item>
+        <item>Internet 2000 MB(Selected Cities Only)\nValidity 7 day\n Price Rs. 85(incl. Tax) \nDial *812#</item>
+        <item>Internet 4000 MB MB\n(2000MB 1AM - 11AM)\nValidity 7 day\n Price Rs. 99(incl. Tax) \nDial *288#</item>
+        <item>Internet 7000 MB MB\n(1000MB Goonj)\nValidity 7 day\n Price Rs. 175(incl. Tax) \nDial *336#</item>
+        <item>Internet 3000 MB(Free 50 Balance)\nValidity 7 day\n Price Rs. 120(incl. Tax) \nDial *620#</item>
+        <item>Internet 10 GB\n(+10MB 12AM - 8AM)\nValidity 30 day\n Price Rs. 450(incl. Tax) \nDial *335#</item>
+        <item>Internet 100 MB\n(3000MB WhatsApp Facebook)\nValidity 30 day\n Price Rs. 50(incl.Tax) \nDial *991#</item>
+        <item>Internet 2000 MB MB\n(1000MB Goonj, WhatsApp)\nValidity 30 day\n Price Rs. 200(incl. Tax) \nDial *301#</item>
+        <item>Internet 10 GB\nValidity 30 day\n Price Rs. 896.25(incl. Tax) \nDial *345*136#</item>
+        <item>Internet 8 GB\n(4GB 1 AM-7AM)\nValidity 30 day\n Price Rs. 300(incl. Tax) \nDial *300#</item>
+        <item>Internet 2000 MB MB\n(1000MB Goonj, WhatsApp)\nValidity 30 day\n Price Rs. 200(incl. Tax) \nDial *301#</item>
+
+
+    </string-array>
+    <string-array name="telenordatadata_code">
+        <item>*311%23</item>
+        <item>*12%23</item>
+        <item>*150%23</item>
+        <item>*60%23</item>
+        <item>*32%23</item>
+        <item>*288%23</item>
+        <item>*247%23</item>
+        <item>*73%23</item>
+        <item>*72%23</item>
+        <item>*345*71%23</item>
+        <item>*946%23</item>
+        <item>*812%23</item>
+        <item>*288%23</item>
+        <item>*336%23</item>
+        <item>*620%23</item>
+        <item>*335%23</item>
+        <item>*991%23</item>
+        <item>*301%23</item>
+        <item>*345*136%23</item>
+        <item>*302%23</item>
+        <item>*301%23</item>
+
+
+    </string-array>
+
+    <string-array name="telenordatasms_name">
+        <item>Daily SMS Bundle</item>
+        <item>Daily Messaging Bundle</item>
+        <item>Weekly Messaging Offer</item>
+        <item>Monthly Messaging Bundle</item>
+        <item>Monthly SMS Bundle</item>
+    </string-array>
+    <string-array name="telenordatasms_description">
+        <item>Validity 1 Day\nSMS 240\nPrice 4.78 \nDial *345*116#</item>
+        <item>Validity 1 Day\nSMS 300\nPrice 2.5 \nDial *2*2*1#</item>
+        <item>Validity 7 Days\nSMS 1200\n Internet 100 WhatsApp \nPrice 11.95 \nDial *2*2*2#</item>
+        <item>Validity 30 Days\nSMS 10000\n(300MB WhatsApp\Facebook) \nPrice 47.80 \nDial *2*2*3#</item>
+        <item>Validity 30 Days\nSMS 6000\nPrice 2.5 \nDial *345*363#</item>
+    </string-array>
+    <string-array name="telenordatasms_code">
+        <item>*345*116%23</item>
+        <item>*2*2*1%23</item>
+        <item>*2*2*2%23</item>
+        <item>*2*2*3%23</item>
+        <item>*345*363%23</item>
+    </string-array>
+
+    <string-array name="telenordatahybrid_name">
+
+        <item>Full Day Offer</item>
+        <item>All In One Offer</item>
+        <item>Telenor Good Time Offer</item>
+        <item>Telenor 3/3 Offer</item>
+        <item>Haftawar Sahulat Offer</item>
+        <item>Monthly All in One</item>
+        <item>Weekly internet All in One</item>
+
+    </string-array>
+    <string-array name="telenordatahybrid_description">
+
+        <item>
+Unlimited On-net minutes \n75MBs internet data
+         <b>Price</b>           Rs 15.5 (Incl. Tax)Recharge Required Rs.25 \n<b>Code</b>             Dial *5*250#
+        \n <b>Validity</b> 1 Day till 12 Midnight</item>
+        <item>
+Get Rs.75 balance for calls and SMS\n to any network for 3 days, along with 500MB* 4G internet\n
+         <b>Price</b>           Rs. 54 (Incl. Tax) \n<b>Code</b>             Dial *345*45#
+        \n <b>Validity</b> 3 Days</item>
+        <item>
+Unlimited On-net minutes for 2 hour \n Internet 250 MB Facebook\n
+         <b>Price</b>           Rs 7 (Incl. Tax) \n<b>Code</b>             Dial *345*20#
+        \n <b>Validity</b> 2 hours </item>
+        <item>
+Onnet 600 minutes\n 300 SMS, 50MB internet\n
+         <b>Price</b>           Rs 50 (Incl. Tax)Recharge Required Rs.70 \n<b>Code</b>             Dial *345*243#
+        \n <b>Validity</b> 3 Days </item>
+        <item>
+1000 On-net minutes \n 700 SMS, Offnet 70 Minutes\n
+         <b>Price</b>           Rs 115 (Incl. Tax)Recharge Required Rs.150 \n<b>Code</b>             Dial *5*7#
+        \n <b>Validity</b> 7 Days </item>
+        <item>
+Rs 150 balance for call/SMS to all networks,\n 5000MB \n
+         <b>Price</b>           Rs 418.25 (Incl. Tax)Recharge Required Rs.500 \n<b>Code</b>              *345*246#
+        \n <b>Validity</b> 1 Month </item>
+        <item>
+Validity 7 Days\n Internet 2,000 MB 4G \n Get Balance Rs 100 for all network calls and SMS
+         <b>Price</b>           Rs 120 (Incl. Tax)Recharge Required Rs.175 \n<b>Code</b>              Dial *345*75#
+        \n <b>Validity</b> 7 days </item>
+
+    </string-array>
+    <string-array name="telenordatahybrid_code">
+
+        <item>*5*250%23</item>
+        <item>Dial *345*45%23</item>
+        <item>*345*20%23</item>
+        <item>*345*243%23</item>
+        <item>*5*7%23</item>
+        <item>*345*246%23</item>
+        <item>*345*75%23</item>
+
+
+    </string-array>
+
+    <string-array name="telenordatacall_name">
+
+        <item>Full Day Offer</item>
+        <item>Telenor Superload Offer</item>
+        <item>Telenor Good Time Offer</item>
+        <item>Telenor 3/3 Offer</item>
+        <item>Haftawar Sahulat Offer</item>
+        <item>Monthly All in One</item>
+
+    </string-array>
+    <string-array name="telenordatacall_description">
+
+        <item>
+Unlimited On-net minutes \n75MBs internet data
+         <b>Price</b>           Rs 15.5 (Incl. Tax)Recharge Required Rs.25 \n<b>Code</b>             Dial *5*250#
+        \n <b>Validity</b> 1 Day till 12 Midnight</item>
+        <item>
+Free Any Network Minutes: 20
+         <b>Price</b>           Rs. 0.80 (Incl. Tax) Get 20 free minutes for all networks upon\n recharge of Rs.100 or more \n<b>Code</b>             Dial: *5*100#
+        \n <b>Validity</b> 24 hours</item>
+        <item>
+Unlimited On-net minutes for 2 hour \n Internet 250 MB Facebook\n
+         <b>Price</b>           Rs 7 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *345*20#
+        \n <b>Validity</b> 2 hours </item>
+        <item>
+Onnet 600 minutes\n 300 SMS, 50MB internet\n
+         <b>Price</b>           Rs 50 (Incl. Tax)Recharge Required Rs.70 \n<b>Code</b>             Dial *345*243#
+        \n <b>Validity</b> 3 Days </item>
+        <item>
+1000 On-net minutes \n 700 SMS, Offnet 70 Minutes\n
+         <b>Price</b>           Rs 115 (Incl. Tax)Recharge Required Rs.150 \n<b>Code</b>             Dial *5*7#
+        \n <b>Validity</b> 7 Days </item>
+        <item>
+Rs 150 balance for call/SMS to all networks,\n 5000MB \n
+         <b>Price</b>           Rs 418.25 (Incl. Tax)Recharge Required Rs.500 \n<b>Code</b>              *345*246#
+        \n <b>Validity</b> 1 Month </item>
+    </string-array>
+    <string-array name="telenordatacall_code">
+        <item>*5*250%23</item>
+        <item>*5*100%23</item>
+        <item>*345*20%23</item>
+        <item>*345*243%23</item>
+        <item>*5*7%23</item>
+        <item>*345*246%23</item>
+    </string-array>
+
+    \\Ufone start
+    <string-array name="ufonedatadata_name">
+        <item>SPECIAL DAILY</item>
+        <item>DAILY LIGHT</item>
+        <item>MEGA INTERNET</item>
+        <item>DAILY HEAVY</item>
+        <item>3 DAY BUCKET</item>
+        <item>SUPER INTERNET</item>
+        <item>WEEKLY INTERNET PLUS</item>
+        <item>MONTHLY LIGHT</item>
+        <item>MONTHLY HEAVY</item>
+        <item>MONTHLY MAX</item>
+        <item>MONTHLY LITE CASHBACK OFFER</item>
+    </string-array>
+    <string-array name="ufonedatadata_description">
+        <item>500 MB\n(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 6 (Incl. Tax) \n<b>Code</b>             Dial *3461#
+        \n <b>Validity</b>1 AM - 9 PM </item>
+        <item>40 MB All \n500 MB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 12 (Incl. Tax)Recharge Required Rs.17 \n<b>Code</b>             Dial *2256#
+        \n <b>Validity</b>1 Day</item>
+        <item>2 GB\n
+         <b>Price</b>           Rs 15 (Incl. Tax)Recharge Required Rs.20 \n<b>Code</b>             Dial *550#
+        \n <b>Validity</b>1 AM - 9 PM </item>
+        <item>75 MB All \n500 MB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 18 (Incl. Tax)Recharge Required Rs.23 \n<b>Code</b>             Dial *2258#
+        \n <b>Validity</b>1 Day</item>
+        <item>100 MB All \n500 MB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 30 (Incl. Tax)Recharge Required Rs.47 \n<b>Code</b>             Dial *3350#
+        \n <b>Validity</b>3 Day</item>
+        <item>1.2 GB\n
+         <b>Price</b>           Rs 130 Recharge Required Rs.130 \n<b>Code</b>             Dial *220#
+        \n <b>Validity</b>7 Days </item>
+        <item>3 GB\n
+         <b>Price</b>           Rs 175 Recharge Required Rs.175 \n<b>Code</b>             Dial *260#
+        \n <b>Validity</b>7 Days</item>
+        <item>1 GB All \n2 GB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 390 Recharge Required Rs.390 \n<b>Code</b>             Dial *7807#
+        \n <b>Validity</b>30 Days</item>
+        <item>3 GB All \n2 GB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 780 Recharge Required Rs.780 \n<b>Code</b>             Dial *803#
+        \n <b>Validity</b>30 Days</item>
+        <item>10 GB All \n2 GB(WhatsApp,Line,Facebook,Twitter)
+         <b>Price</b>           Rs 1560 Recharge Required Rs.1560 \n<b>Code</b>             Dial *5100#
+        \n <b>Validity</b>30 Days</item>
+        <item>1 GB All \n2 GB(WhatsApp,Line,Facebook,Twitter)\n50 CashBack
+         <b>Price</b>           Rs 250 Recharge Required Rs.250 \n<b>Code</b>             Dial *3#
+        \n <b>Validity</b>30 Days</item>
+    </string-array>
+    <string-array name="ufonedatadata_code">
+        <item>*3461%23</item>
+        <item>*2256%23</item>
+        <item>*550%23</item>
+        <item>*2258%23</item>
+        <item>*3350%23</item>
+        <item>*220%23</item>
+        <item>*260%23</item>
+        <item>*7807%23</item>
+        <item>*803%23</item>
+        <item>*5100%23</item>
+        <item>*3%23</item>
+    </string-array>
+
+    <string-array name="ufonedatasms_name">
+        <item>Daily Package</item>
+        <item>Fortnightly Package</item>
+        <item>Unlimited Package</item>
+        <item>Yearly SMS Package</item>
+        <item>*Weekly SMS Bucket</item>
+        <item>45 Day SMS Bucket</item>
+    </string-array>
+    <string-array name="ufonedatasms_description">
+        <item>1600 Free SMS\n
+         <b>Price</b>           Rs 4.77+tax Recharge Required Rs.10 \n<b>Code</b>            SMS SUB to 605
+        \n <b>Validity</b>24 Hours</item>
+        <item>10500 Free SMS\n
+         <b>Price</b>           Rs 35.85+tax Recharge Required Rs.50 \n<b>Code</b>            SMS SUB to 603
+        \n <b>Validity</b>14 Days</item>
+        <item>21000 Free SMS\n
+         <b>Price</b>           Rs 35.85+tax Recharge Required Rs.50 \n<b>Code</b>            SMS SUB to 607
+        \n <b>Validity</b>30 Days</item>
+        <item>110000 Free SMS\n
+         <b>Price</b>           Rs 795.87+tax Recharge Required Rs.1000+tax \n<b>Code</b>            SMS SUB to 601
+        \n <b>Validity</b>1 Year</item>
+        <item>1250 Free SMS\n
+         <b>Price</b>           Rs 11.95+tax Recharge Required Rs.20 \n<b>Code</b>            SMS SUB to 608
+        \n <b>Validity</b>7 Days</item>
+        <item>31000 Free SMS\n
+         <b>Price</b>           Rs 118.31+tax Recharge Required Rs.150 \n<b>Code</b>            SMS SUB to 614
+        \n <b>Validity</b>45 Days</item>
+    </string-array>
+    <string-array name="ufonedatasms_code">
+        <item>*506%23</item>
+        <item>*506%23</item>
+        <item>*506%23</item>
+        <item>*506%23</item>
+        <item>*506%23</item>
+        <item>*506%23</item>
+    </string-array>
+
+    <string-array name="ufonedatahybrid_name">
+
+        <item>Power Hour</item>
+        <item>Asli Chappar Phaar Offer</item>
+        <item>Daily Pakistan Offer</item>
+        <item>Weekly Pakistan Offer</item>
+        <item>Monthly Pakistan Offer</item>
+
+    </string-array>
+    <string-array name="ufonedatahybrid_description">
+
+<item>
+Ufone and PTCL: 60 minutes \n60MBs internet data \n 60 SMS
+         <b>Price</b>           Rs 7.17 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *99#
+        \n <b>Validity</b> 1 hour</item>
+
+        <item>
+100 on-net minutes\n 100 SMS\n 1000 MB
+         <b>Price</b>           Rs. 120 (Incl. Tax) \n<b>Code</b>             Dial *5050#
+        \n <b>Validity</b> 7 Days</item>
+        <item>
+100 On-net minutes Ufone and PTCL\n Internet 10 MB \n
+         <b>Price</b>           Rs 18(Incl. Tax)\n<b>Code</b>             Dial *888#
+        \n <b>Validity</b> 1 Day </item>
+        <item>
+Onnet 700 minutes Ufone and PTCL\n 100MB internet\n
+         <b>Price</b>           Rs 100 (Incl. Tax)\n<b>Code</b>             Dial *8888#
+        \n <b>Validity</b> 7 Days </item>
+        <item>
+4000 On-net minutes Ufone and PTCL \n 400MB internet
+         <b>Price</b>           Rs 418(Incl. Tax) \n<b>Code</b>             Dial *8888#
+        \n <b>Validity</b> 7 Days </item>
+
+
+    </string-array>
+    <string-array name="ufonedatahybrid_code">
+
+        <item>*99%23</item>
+        <item>*5050%23</item>
+        <item>*888%23</item>
+        <item>*8888%23</item>
+        <item>*8888%23</item>
+    </string-array>
+
+
+    <string-array name="ufonedatacall_name">
+
+        <item>3 pe 3 Offer</item>
+        <item>Beyhisaab Offer</item>
+        <item>Power Hour</item>
+        <item>Asli Chappar Phaar Offer</item>
+        <item>Daily Pakistan Offer</item>
+        <item>Weekly Pakistan Offer</item>
+        <item>Monthly Pakistan Offer</item>
+
+
+    </string-array>
+    <string-array name="ufonedatacall_description">
+
+<item>
+Ufone and PTCL: unlimited minutes\n
+         <b>Price</b>           Rs 6.00 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *343#
+        \n <b>Validity</b> 2 hours</item>
+
+        <item>
+Unlimited minutes Ufone and PTCL\n
+         <b>Price</b>           Rs. 14.5 (Incl. Tax) \n<b>Code</b>             Dial *5700#
+        \n <b>Validity</b> 1 Day</item>
+
+
+        <item>
+Ufone and PTCL: 60 minutes \n60MBs internet data \n 60 SMS
+         <b>Price</b>           Rs 7.17 (Incl. Tax)Recharge Required Rs.30 \n<b>Code</b>             Dial *99#
+        \n <b>Validity</b> 1 hour</item>
+
+        <item>
+100 on-net minutes\n 100 SMS\n 1000 MB
+         <b>Price</b>           Rs. 120 (Incl. Tax) \n<b>Code</b>             Dial *5050#
+        \n <b>Validity</b> 7 Days</item>
+        <item>
+100 On-net minutes Ufone and PTCL\n Internet 10 MB \n
+         <b>Price</b>           Rs 18(Incl. Tax)\n<b>Code</b>             Dial *888#
+        \n <b>Validity</b> 1 Day </item>
+        <item>
+Onnet 700 minutes Ufone and PTCL\n 100MB internet\n
+         <b>Price</b>           Rs 100 (Incl. Tax)\n<b>Code</b>             Dial *8888#
+        \n <b>Validity</b> 7 Days </item>
+        <item>
+4000 On-net minutes Ufone and PTCL \n 400MB internet
+         <b>Price</b>           Rs 418(Incl. Tax) \n<b>Code</b>             Dial *8888#
+        \n <b>Validity</b> 7 Days </item>
+
+
+    </string-array>
+    <string-array name="ufonedatacall_code">
+
+        <item>*343%23</item>
+        <item>*5700%23</item>
+        <item>*99%23</item>
+        <item>*5050%23</item>
+        <item>*888%23</item>
+        <item>*8888%23</item>
+        <item>*8888%23</item>
+
+
+    </string-array>
+
+    <string name="FAQ">
+        Q.NO 1  What is the Main working of this Application? \n
+        Ans:  Basically this Application is used to ease the problem to subscribe packages. \n  \n
+        Q.no 2  What is the main working of this application? \n
+        Ans:  With this application you can subscribe to all packages of all sims with just one click. \n  \n
+        Q.no 3  There are many applications already working same thing! \n
+        Ans:  No, actually for each carrier you will have to download each application, such as for Jazz "Jazz World App" \n  \n
+        Q.no 4  Why do i choose this app over existing apps? \n
+        Ans:  Basically this is offline application, all other applications do require internet access to work, but this application work without internet
+        you whenever you dont have internet access you can still use this application.\n  \n
+        Q.no 5  Which Carrier this application support and which packages? \n
+        Ans:  As This application support Jazz/Warid, Zong, Telenor and Ufone as well \n  \n
+
+
+    </string>
+
+</resources>

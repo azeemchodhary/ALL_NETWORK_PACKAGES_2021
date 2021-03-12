@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".AboutUs">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Crossbug Developers"
+        android:textStyle="bold"
+        android:layout_marginLeft="25dp"
+        android:textColor="#000"
+        android:id="@+id/txt"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+
+    <!-- 1st CardView Start -->
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="3dp"
+        android:src="@drawable/officalicon2" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview1"
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cv1"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:id="@+id/cardview_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="Azeem Chodhary"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/short_description1"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_list_title"
+                android:text="Android Developer"
+                android:textColor="#8b8b8b" />
+
+            <ImageView
+
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/azeem" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- 1st CardView END -->
+
+    <!-- 2nd CardView Start -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview2"
+        android:onClick="cv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/cardview_list_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="Dawood Mirza"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/short_description2"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_list_title2"
+                android:text="Android Developer"
+                android:textColor="#8b8b8b" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:src="@drawable/daud"
+                android:layout_alignParentRight="true"
+                />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- 2nd CardView End -->
+
+    <!-- 3rd CardView Start -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:onClick="cv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/cardview_list_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="Humza Butt"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/short_description3"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_list_title3"
+                android:text="Brand identity Manager"
+                android:textColor="#8b8b8b" />
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:src="@drawable/humza"
+                android:layout_alignParentRight="true"/>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- 3rd CardView End -->
+
+    <!-- 4th CardView Start -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview4"
+        android:onClick="cv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cardview3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/cardview_list_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="5dp"
+                android:text="Team Crossbug"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/short_description5"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cardview_list_title5"
+                android:text="Team includes our webdeveloper, Network engineer and our system analyst."
+                android:textColor="#8b8b8b" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:src="@drawable/officaliconcb"
+                android:layout_alignParentRight="true"/>
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <!-- 4th CardView End -->
+
+
+</RelativeLayout>

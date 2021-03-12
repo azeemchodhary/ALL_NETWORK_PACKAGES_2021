@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/Title"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnjazz"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/mybutton1"
+                android:drawableLeft="@drawable/jazz1logon"
+                android:onClick="btnJazz"
+                android:text="@string/btn2"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btntelenor"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btnjazz"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="11dp"
+                android:background="@drawable/mybutton1"
+                android:drawableLeft="@drawable/telicon"
+                android:fallbackLineSpacing="false"
+                android:onClick="btnTelenor"
+                android:text="@string/btn3"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/balzong"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btntelenor"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/mybutton1"
+                android:drawableLeft="@drawable/zongicon"
+                android:fallbackLineSpacing="false"
+                android:onClick="btnZong"
+                android:text="@string/btn4"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnWarid"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/balzong"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="11dp"
+                android:background="@drawable/mybutton1"
+                android:drawableLeft="@drawable/waridicon"
+                android:fallbackLineSpacing="false"
+                android:onClick="btnWarid"
+                android:text="@string/btn5"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnUfone2"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/btnWarid"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/mybutton1"
+                android:drawableLeft="@drawable/ufonelogo"
+                android:fallbackLineSpacing="false"
+                android:onClick="btnUfone"
+                android:text="@string/btn6"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+            android:id="@+id/btnbal"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnWarid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/mybutton1"
+            android:fallbackLineSpacing="false"
+            android:onClick="btnbal"
+            android:text="Check Balance Your Balance"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/btnloan"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnbal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybutton1"
+            android:onClick="btnloan"
+            android:text="Take Loan / Advance"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnprivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnloan"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="11dp"
+                android:background="@drawable/mybutton1"
+                android:onClick="btnprivacy"
+                android:text="Privacy Policy"
+                android:textColor="#000000" />
+
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111" >
+            </com.google.android.gms.ads.AdView>
+        // Real Banner Ad unit id above is test ad == ads:adUnitId="ca-app-pub-9406044100015529/5415023101"
+
+
+        </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
